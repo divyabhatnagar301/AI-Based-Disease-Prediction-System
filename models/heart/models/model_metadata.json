@@ -1,0 +1,39 @@
+{
+    "model_name": "Random Forest",
+    "model_path": "models/best_heart_disease_model.pkl",
+    "accuracy": 0.9853658536585366,
+    "accuracy_percentage": 98.54,
+    "feature_names": [
+        "age",
+        "sex",
+        "cp",
+        "trestbps",
+        "chol",
+        "fbs",
+        "restecg",
+        "thalach",
+        "exang",
+        "oldpeak",
+        "slope",
+        "ca",
+        "thal"
+    ],
+    "target_name": "target",
+    "feature_count": 13,
+    "training_samples": 820,
+    "test_samples": 205,
+    "model_type": "RandomForestClassifier",
+    "all_model_scores": {
+        "Random Forest": 98.54,
+        "Extra Trees": 98.54,
+        "LightGBM": 98.54,
+        "Cat Boost": 98.54,
+        "XGBoost": 98.54,
+        "Gradient Boosting": 94.15,
+        "Ada Boost": 82.93,
+        "Logistic Regression": 80.49,
+        "Naive Bayes": 68.78,
+        "SVC": 66.34
+    },
+    "dataset_path": "heart.csv"
+}

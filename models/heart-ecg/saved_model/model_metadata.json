@@ -1,0 +1,20 @@
+{
+  "model_name": "LSTM Heartbeat (MIT-BIH)",
+  "model_type": "keras_lstm",
+  "model_file": "lstm_heartbeat.keras",
+  "input_shape": [
+    187,
+    1
+  ],
+  "sequence_length": 187,
+  "num_classes": 5,
+  "class_names": [
+    "Normal",
+    "Supraventricular premature beat",
+    "Premature ventricular contraction",
+    "Fusion of normal and PVC",
+    "Unclassified"
+  ],
+  "accuracy": 0.9742447733879089,
+  "loss": 0.09286828339099884
+}

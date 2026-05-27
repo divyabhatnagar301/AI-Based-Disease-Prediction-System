@@ -1,0 +1,152 @@
+{
+    "model_name": "Logistic Regression",
+    "model_type": "LogisticRegression",
+    "accuracy": 0.8001460564751705,
+    "use_scaled_features": true,
+    "feature_names": [
+        "Age of the patient",
+        "Blood pressure (mm/Hg)",
+        "Specific gravity of urine",
+        "Albumin in urine",
+        "Sugar in urine",
+        "Random blood glucose level (mg/dl)",
+        "Blood urea (mg/dl)",
+        "Serum creatinine (mg/dl)",
+        "Sodium level (mEq/L)",
+        "Potassium level (mEq/L)",
+        "Hemoglobin level (gms)",
+        "Packed cell volume (%)",
+        "White blood cell count (cells/cumm)",
+        "Red blood cell count (millions/cumm)",
+        "Estimated Glomerular Filtration Rate (eGFR)",
+        "Urine protein-to-creatinine ratio",
+        "Urine output (ml/day)",
+        "Serum albumin level",
+        "Cholesterol level",
+        "Parathyroid hormone (PTH) level",
+        "Serum calcium level",
+        "Serum phosphate level",
+        "Body Mass Index (BMI)",
+        "Duration of diabetes mellitus (years)",
+        "Duration of hypertension (years)",
+        "Cystatin C level",
+        "C-reactive protein (CRP) level",
+        "Interleukin-6 (IL-6) level",
+        "Appetite"
+    ],
+    "target_classes": [
+        "High_Risk",
+        "Low_Risk",
+        "Moderate_Risk",
+        "No_Disease",
+        "Severe_Disease"
+    ],
+    "model_path": "saved_model\\best_model.pkl",
+    "scaler_path": "saved_model\\scaler.pkl",
+    "imputer_path": "saved_model\\imputer.pkl",
+    "encoders_path": "saved_model\\label_encoders.pkl",
+    "training_date": "2026-01-20T21:31:39.375528",
+    "dataset_path": "kidney_disease_dataset.csv",
+    "n_features": 29,
+    "n_samples_train": 16430,
+    "n_samples_test": 4108,
+    "classification_report": {
+        "High_Risk": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 164.0
+        },
+        "Low_Risk": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 411.0
+        },
+        "Moderate_Risk": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 164.0
+        },
+        "No_Disease": {
+            "precision": 0.8001460564751705,
+            "recall": 1.0,
+            "f1-score": 0.8889790398918188,
+            "support": 3287.0
+        },
+        "Severe_Disease": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 82.0
+        },
+        "accuracy": 0.8001460564751705,
+        "macro avg": {
+            "precision": 0.16002921129503409,
+            "recall": 0.2,
+            "f1-score": 0.17779580797836375,
+            "support": 4108.0
+        },
+        "weighted avg": {
+            "precision": 0.6402337116927667,
+            "recall": 0.8001460564751705,
+            "f1-score": 0.711313073058522,
+            "support": 4108.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            0,
+            0,
+            0,
+            164,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            411,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            164,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            3287,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            82,
+            0
+        ]
+    ],
+    "model_parameters": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": null,
+        "max_iter": 1000,
+        "multi_class": "deprecated",
+        "n_jobs": null,
+        "penalty": "l2",
+        "random_state": 42,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+    }
+}

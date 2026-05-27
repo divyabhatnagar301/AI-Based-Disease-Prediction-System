@@ -1,0 +1,45 @@
+
+============================================================
+KIDNEY DISEASE PREDICTION MODEL - TRAINING SUMMARY
+============================================================
+
+Dataset Information:
+- Dataset Path: kidney_disease_dataset.csv
+- Total Samples: 20538
+- Total Features: 29
+- Training Samples: 16430
+- Testing Samples: 4108
+
+Model Performance Comparison:
+- Logistic Regression: 0.8001
+- Decision Tree: 0.6249
+- SVM: 0.8001
+- Random Forest: 0.8001
+- Neural Network: 0.7712
+
+Best Model:
+- Model Name: Logistic Regression
+- Accuracy: 0.8001
+- Model Type: LogisticRegression
+- Uses Scaled Features: True
+
+Target Classes:
+- High_Risk
+- Low_Risk
+- Moderate_Risk
+- No_Disease
+- Severe_Disease
+
+Saved Files:
+- Model: saved_model\best_model.pkl
+- Metadata: saved_model\model_metadata.json
+- Results Directory: results/
+  - model_comparison.png
+  - model_comparison.csv
+  - detailed_comparison.png
+  - best_model_confusion_matrix.png
+  - feature_importance.png (if available)
+  - feature_importance.csv (if available)
+
+Training completed successfully!
+============================================================

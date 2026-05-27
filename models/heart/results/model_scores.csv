@@ -1,0 +1,11 @@
+,scores
+Random Forest,98.54
+Extra Trees,98.54
+LightGBM,98.54
+Cat Boost,98.54
+XGBoost,98.54
+Gradient Boosting,94.15
+Ada Boost,82.93
+Logistic Regression,80.49
+Naive Bayes,68.78
+SVC,66.34
